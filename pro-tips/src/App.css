@@ -1,0 +1,132 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+  border: 2px solid red;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.NavBar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 13px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  width: 30%;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+input {
+  height: 30px;
+  width: 70%;
+  padding: 5px;
+  border: none;
+  background-color: #eeecee;
+}
+
+button {
+  height: 30px;
+  width: 30%;
+ background-color :#41a445;
+  border: none;
+  color: white;
+}
+
+.reg-success {
+  color: #41a445;
+}
+
+.err-msg{
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  /* background-color: aqua; */
+  /* color: palegreen; */
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.content {
+  /* border: 2px solid red; */
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  height: 60%;
+}
+
+ul {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
